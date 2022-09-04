@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+/*font-family: 'Lora', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+/*  font-family: 'Lora', serif; */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: black;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.preview-card {
+    font-family: 'Lora', serif;
+
+}
+
+.whole-card {
+    width: 1200px;
+    background-color: hsl(30, 38%, 92%);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image {
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.preview-card {
+    border-top-right-radius:9px ;
+    border-bottom-right-radius:9px ;
+    width: 270px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image {
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
+    width: 270px;
+    height: 400px;
+
+}
+
+.price {
+    position: relative;
+    top: 20px;
+    left:60px ;
+    margin: 10px;
+}
+
+p {
+    align-items: center;
+    position: relative;
+    top:10px ;
+    
+    margin-left:10px ;
+    margin-right:10px ;
+
+    font-size: 14px;
+    left: 7px;
+    font-family: 'Lora', serif;
+}
+
+    button {
+        position: relative;
+        top:20px;
+        align-items: center;
+    cursor: pointer;
+    text-align: center;
+    margin-top:px ;
+
+    font-weight: 600;
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: green;
+    border-color: transparent;
+    border-radius: 3px;
+
+}
+
+footer {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top:50px;
+    color: white;
+}
+
+.Product-tittle {
+    position: relative;
+    
+    margin: 10px;
+    font-size:38px ;
+    font-weight: bold;
+}
+
+.big-price {
+    color: green;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+
+}
+
+.dashed-price {
+    text-decoration-line: line-through;
+    color: grey;
+    
+    font-size: 10px;
+    position: relative;
+    bottom: 8px;
+    left: 10px;
+}
+
+#icon {
+    background-image: url(/product-preview-card-component-main/icons/shopping-cart\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: 38px 5.5px;
+}
+.L{
+    position: relative;
+    top:-5px ;
+}
